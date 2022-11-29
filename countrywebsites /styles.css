@@ -1,0 +1,40 @@
+/*
+
+
+Selector {
+
+    property: value;
+    porperty: value;
+    porperty: value;
+}
+
+tagname -> select all tags of a given type of 
+classname -> select allyahs that have a given class 
+tagname.classname -> select only tags that are also a given class
+
+  > -> Child symbol
+  Tagname>tagname - > select children of a given type 
+  .classname>tagname  - > select chidren of a given type
+  tagname>tagname -> select children of a given type 
+  .classname> .classname - > select children of a given type
+
+*/
+.nav {
+
+    border-style: dotted;
+
+    width: 50%;
+    margin: auto;
+
+    list-style: none;
+    padding-left: 0%;
+    text-align: center;
+}
+
+.nav>li {
+    
+    border-style: dotted;
+    display: inline-block;
+
+
+}
